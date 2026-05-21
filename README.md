@@ -1,6 +1,7 @@
 # Figma Assignment
 
 A React + Vite implementation of a billing and checkout screen with a fixed top navigation bar, billing details form, order summary, wallet balance, and coupon selection.
+check on : https://billing-page.onrender.com/ 
 
 ## Features
 
