@@ -1,0 +1,106 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+  padding: 0 24px;
+  border-bottom: 1px solid #E5E7EB;
+  background-color: #FFFFFF;
+}
+
+.navbar-search-wrapper {
+  position: relative;
+  width: 360px;
+  margin-left: 56px;
+  flex-shrink: 0;
+}
+
+.navbar-search-input {
+  width: 100%;
+  height: 32px;
+  border: 1px solid #C9D2E3;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  padding-left: 12px;
+  padding-right: 36px;
+  color: #4B5563;
+  font-size: 11px;
+  font-weight: 400;
+  outline: none;
+  transition: border-color 150ms ease;
+}
+
+.navbar-search-input::placeholder {
+  color: #A0A8B8;
+}
+
+.navbar-search-input:focus {
+  border-color: #9AA8C7;
+}
+
+.navbar-search-icon {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  color: #667085;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-upgrade-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FACC15;
+  padding: 8px 16px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-create-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563EB;
+  padding: 8px 16px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-profile-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 9999px;
+  background: none;
+  padding: 0;
+  color: #2563EB;
+  cursor: pointer;
+}
+
+.navbar-menu-icon {
+  color: #4B5563;
+  cursor: pointer;
+}
