@@ -2,6 +2,7 @@
 
 A React + Vite implementation of a billing and checkout screen with a fixed top navigation bar, billing details form, order summary, wallet balance, and coupon selection.
 check on : https://billing-page.onrender.com/ 
+<img width="1920" height="1133" alt="Image" src="https://github.com/user-attachments/assets/2e5ecb27-0bc6-4630-bb8f-9ffb7f1abbf0" />
 
 ## Features
 
